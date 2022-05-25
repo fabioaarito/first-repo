@@ -41,6 +41,13 @@ const clients = [
     age: 29,
     profession: "Psychologist",
   },
+  {
+    username: "jvicente",
+    firstName: "João",
+    lastName: "Vicente",
+    age: 53,
+    profession: "Web Dev",
+  },
 ];
 
 document.querySelector("#clients-body").innerHTML = generateClientsTBody();
