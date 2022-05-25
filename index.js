@@ -27,6 +27,13 @@ const clients = [
     age: 50,
     profession: "Team Head Coach",
   },
+  {
+    username: "anap",
+    firstName: "Ana",
+    lastName: "Perez",
+    age: 34,
+    profession: "Team Head Coach",
+  },
 ];
 
 document.querySelector("#clients-body").innerHTML = generateClientsTBody();
