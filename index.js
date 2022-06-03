@@ -42,7 +42,7 @@ const clients = [
     profession: "Psychologist",
   },
   {
-    username: "jvicente",
+    username: "joãovicente",
     firstName: "João",
     lastName: "Vicente",
     age: 53,
