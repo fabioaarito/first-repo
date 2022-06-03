@@ -59,6 +59,7 @@ document
 function generateClientsTBody() {
   let result = "";
   for (let i = 0; i < clients.length; i++) {
+    console.log(clients[i]);
     result =
       result +
       `<tr>
