@@ -8,6 +8,7 @@ const formacoes = [
       {
         name: "formacao-a",
         title: "phc A",
+        link: "",
       },
       {
         name: "formacao-b",

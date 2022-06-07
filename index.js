@@ -59,7 +59,6 @@ document
 function generateClientsTBody() {
   let result = "";
   for (let i = 0; i < clients.length; i++) {
-    console.log(clients[i]);
     result =
       result +
       `<tr>
@@ -110,4 +109,11 @@ function deleteClient() {
 
   clients.splice(selectedIndex, 1);
   document.querySelector("#clients-body").innerHTML = generateClientsTBody();
+}
+
+document
+  .querySelector('input[name="search-input"]')
+  .addEventListener("input", search);
+function search(event) {
+  console.log("Searching...", event.target.value);
 }
